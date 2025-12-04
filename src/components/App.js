@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Login from "./Login";
+import Login from "./Login"; // correct path
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
